@@ -6,7 +6,7 @@ go:
  - master
 
 script:
- - go build -x -v ./random-downloader.go
+ - go build -x -v ./main.go
  - go test -race -coverprofile=coverage.txt -covermode=atomic -a -x -v *.go
 
 notifications:
